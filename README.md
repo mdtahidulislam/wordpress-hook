@@ -19,7 +19,7 @@ $filtered_value = apply_filter('your_filter_name', 'argument');
 * $parameter comes from apply_filter()
 */
 
-function($parameter){
+function function_to_be_excuted($parameter){
   // do something with $parameter
   return $parameter;
 }
