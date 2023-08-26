@@ -1,5 +1,8 @@
 # WordPress Hook: Filter &Action
 ## Filter Hook
+### How to work
+When applying a filter, at first it finds a function registered with this hook. If it is, the argument is passed as parameter to that function, and after some operation, this function returns the parameter which is updated at apply_filter() function. If not default parameter remains same.
+### Features
 * always return something
 * accept parameters
 * priority
